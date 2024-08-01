@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(99, 111, 122);
+    text-align: center;
+    user-select: none;
+}
+
+h1{
+    padding: 10px;
+}
+
+#piece {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-style:outset;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.black.king {
+    border-color: gold;
+}
+
+.red.king {
+    border-color: gold;
+}
+
+
+.black {
+    background-color: black;
+    border: 5px solid white;
+}
+
+.red{
+    background-color: red;
+    border: 5px solid white;
+}
+
+.square {
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+    border: 1px outset grey;
+    padding: 0;
+    margin: 0;
+}
+
+
+.white-square {
+    background-color: snow;
+}
+
+.black-square {
+    background-color: rgb(22, 22, 22);
+}
+
+#chessBoard {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 10px outset;
+    border-radius: 1%;
+    width: 816px;
+    height: 816px;
+    margin: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container{
+    position: relative;
+    display: inline-block;
+}
+
+#scoreboard {
+    display: block;
+    position: absolute;
+    left: -32%;
+    top: 50%;
+    font-size: 2em;
+    padding: 1%;
+    border: 5px outset slategray;
+    background-color: snow;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scoreboardpart {
+    display: block;
+    text-align: center;
+}
